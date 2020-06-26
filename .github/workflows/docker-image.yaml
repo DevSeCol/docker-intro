@@ -14,7 +14,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - run: pwd
-    - run: ls -lR .
     - name: Build the Docker image
-      run: docker build . --file code/Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build . --file Dockerfile-go-1 --tag my-image-name:$(date +%s)
