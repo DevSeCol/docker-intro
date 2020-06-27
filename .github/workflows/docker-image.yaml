@@ -20,3 +20,5 @@ jobs:
       uses: craftech-io/package-action@v3.1.0
       with:
         access_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Test the image
+      run: docker run docker.pkg.github.com/devsecol/docker-intro/docker-intro:4125e5fcd677473db5d37bd62c4c4bfe500e6e2d ls
