@@ -1,7 +1,7 @@
 # Retos - Sesion 4
 * Crear un contenedor que ejecute una aplicacion simple en cualquier lenguaje de programación
 * Adicionar el Dockerfile en este repositorio (docker-intro)
-* Publicar la imagen en dockerhub.com
+* Publicar la imagen en dockerhub.com o algun otro registry publico
 
 ## Opcional
 * Seguir la guía sobre como configurar un Docker Registry manualmente
