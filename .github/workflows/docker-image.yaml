@@ -18,4 +18,5 @@ jobs:
       run: docker build . --file Dockerfile-go-1 --tag my-image-name:$(date +%s)
     - name: Docker Package Registry
       uses: craftech-io/package-action@v3.1.0
-
+      with:
+        access_token: ${{ secrets.GITHUB_TOKEN }}
